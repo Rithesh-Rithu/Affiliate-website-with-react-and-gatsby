@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby';
 import logo from '../../images/logo.png'
-import {FaCartArrowDown} from 'react-icons/fa'
 
 export default class Navbar extends Component {
     
@@ -14,12 +13,13 @@ export default class Navbar extends Component {
             url: '/'
         },{
             id:2,
-            text:"About",
-            url:'/about'
+            text:"Products",
+            url:'/products'
+            
         },{
             id:3,
-            text:"Services",
-            url:'/services'
+            text:"About",
+            url:'/about'
         },{
             id:4,
             text:"Contact",
@@ -39,10 +39,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-theme text-white">
+            <nav className="navbar navbar-expand-sm bg-navtheme text-white fixed-top">
                 <Link to = "/" className="navbar-brand ml-5">
                     <img src={logo} alt="logo goes here" width="40px" />
                 </Link>
+                <h2>fashionfreaky.com</h2>
                 <button className="navbar-toggler" type="button" onClick={this.myToggler} >
                     <span className="text-white">Menu</span>
                 </button>
@@ -50,15 +51,13 @@ export default class Navbar extends Component {
                     <ul className="navbar-nav ml-auto mr-5">
                         {this.state.menus.map(menu => {
                             return(
+                                <b>
                                 <li key={menu.id} className="nav-item">
                                     <Link to={menu.url} className="nav-link text-white">{menu.text}</Link>
-                                </li> 
+                                </li> </b>
                             )
                         })}
                         
-                        <li className="nav-item">
-                            <Link to="/" className="nav-link text-white"><FaCartArrowDown className="cart-icon" /></Link>
-                        </li>
                     </ul>
                 </div>
             </nav>
