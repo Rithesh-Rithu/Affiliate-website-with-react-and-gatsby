@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 import Infoblock from "../components/Reuseable/Infoblock"
 import DualInfoblock from "../components/Reuseable/DualInfoblock"
 
-import { graphql } from 'gatsby'
-
 const AboutPage = ({data}) => (
   <Layout>
     <SEO title="About" />

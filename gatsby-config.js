@@ -4,8 +4,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Affiliate Marketing Project`,
-    description: `Amazing awesome subscribers`,
+    title: `FashionFreaky.com`,
+    description: `Amazing awesome customers`,
     author: `@gatsbyjs`,
   },
   plugins: [

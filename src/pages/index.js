@@ -2,12 +2,12 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import HeroSection from "../components/Reuseable/HeroSection"
-
+import { graphql } from 'gatsby'
 
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <HeroSection/>
+    <HeroSection img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
   </Layout>
 
 )
@@ -15,3 +15,16 @@ const IndexPage = ({data}) => (
 
 
 export default IndexPage
+
+
+export const query = graphql`
+{
+  img: file(relativePath: { eq: "heromain.jpg" }) {
+     childImageSharp {
+       fluid(quality: 100) {
+        ...GatsbyImageSharpFluid_tracedSVG
+       }
+     }
+   }
+}
+   `

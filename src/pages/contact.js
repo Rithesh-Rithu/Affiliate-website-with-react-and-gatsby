@@ -8,7 +8,12 @@ import Heading from '../components/Reuseable/Heading'
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
+    <div className="container">
+    <div className="row">
+        <div className="col-6 info">
     <Infoblock heading="How can we help you?" />
+        </div>
+    <div className="col-6 info">
     <section className="py-3">
             <Heading title="Contact Us"/> 
             <div className="col-10 col-sm-8 mx-auto">
@@ -29,6 +34,7 @@ const ContactPage = () => (
                 </form>
             </div>
         </section>
+        </div></div></div>
   </Layout>
 
 )

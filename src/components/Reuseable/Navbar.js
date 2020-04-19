@@ -44,6 +44,13 @@ export default class Navbar extends Component {
                     <img src={logo} alt="logo goes here" width="40px" />
                 </Link>
                 <h2>fashionfreaky.com</h2>
+                <div className="container search">
+                <form className="d-flex justify-content-between search-inner">
+                    <input type="text" className="form-control" id="search_input" placeholder="Search Here"/>
+                    <button type="submit" className="btn btn-primary"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" alt="search button goes here" className="searchpng"/></button>
+                    <span className="ti-close" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
                 <button className="navbar-toggler" type="button" onClick={this.myToggler} >
                     <span className="text-white">Menu</span>
                 </button>

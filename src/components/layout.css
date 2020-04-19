@@ -35,3 +35,30 @@
 .bg-navtheme{
   background-color: black;
 }
+.info{
+  height: 100vh;
+  margin-top: 80px;
+}
+
+.search{
+  margin-left: 600px;
+}
+.searchpng{
+  width: 20px;
+}
+
+.row-content-1{
+  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.row-content-2{
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.pro{
+  margin-top: 70px;
+}

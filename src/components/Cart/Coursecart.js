@@ -38,7 +38,6 @@ export default class Coursecart extends Component {
     }
 
     render() {
-        // console.log(this.state.courses);
         
         return (
             <section className="py-5">
@@ -76,14 +75,7 @@ export default class Coursecart extends Component {
                                             <small>{node.description.description}</small>
                                         </p>
                                         <h6 className="mb=0 text-success">$ {node.price}</h6>
-                                        <button 
-                                        data-item-id={node.id}
-                                        data-item-name={node.title}
-                                        data-item-price={node.price}
-                                        data-item-url="https://reactbyrithesh.netlify.app/"
-                                        data-item-image={node.image.fixed.src}
-                                        className="btn btn-warning snipcart-add-item"
-                                        >Buy now</button>
+                                        <a className="btn btn-warning" href={node.description.description} target="_blank" role="button">Buy now</a>
                                     </div> 
                                 </div>
                             )
