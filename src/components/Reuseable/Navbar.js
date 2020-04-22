@@ -40,7 +40,7 @@ export default class Navbar extends Component {
                 </div>
             </div>
             <div className="container col-12 col-sm-12 col-md-4">
-            <a href="/" className="btn text-white">Home</a>
+            <a href="/" className="btn btn-block btn-primary text-white">Home</a>
             <a href="/products" className="btn text-white">Products</a>
             <a href="/contact" className="btn text-white">Contact</a>
             <a href="/about" className="btn text-white">About</a>

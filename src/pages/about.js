@@ -2,7 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
-
+import { graphql } from "gatsby"
 import Back from "../components/Reuseable/Back"
 
 const AboutPage = ({data}) => (
