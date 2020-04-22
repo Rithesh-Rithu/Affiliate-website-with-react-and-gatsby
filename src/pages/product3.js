@@ -1,42 +1,30 @@
 import React from 'react'
-import Coursecart from "../components/Cart/Coursecart"
 import Navbar from "../components/Reuseable/Navbar"
 import Footer from "../components/Reuseable/Footer"
+import Productcart3 from "../components/Cart/productcart1"
 import { graphql } from 'gatsby'
+import SEO from "../components/seo"
+ 
 
-
-
-const Product = ({data}) => (
+const products = ({data}) => (
     <div>
-        <Navbar />
-        <Coursecart courses={data.courses}/>
-        <Footer />
-    </div>
-  
+      <SEO title="Products" />
+      <Navbar />
+      <Productcart3 img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
+      <Footer />
+      </div>
   )
-            
+
+export default products
 
 export const query = graphql`
 {
-  courses: allContentfulCourses {
-    edges{
-      node{
-        id
-        title
-        price
-        category
-        description{
-          description
-        }
-        image{
-          fixed(width:200,height:120){
-            ...GatsbyContentfulFixed_tracedSVG
-          }
-        }
-      }
-    }
-}
+  img: file(relativePath: { eq: "5.jpg" }) {
+     childImageSharp {
+       fluid(quality: 100) {
+        ...GatsbyImageSharpFluid_tracedSVG
+       }
+     }
+   }
 }
 `
-
-export default Product;

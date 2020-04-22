@@ -19,7 +19,7 @@ export default products
 
 export const query = graphql`
 {
-  img: file(relativePath: { eq: "2.jpg" }) {
+  img: file(relativePath: { eq: "5.jpg" }) {
      childImageSharp {
        fluid(quality: 100) {
         ...GatsbyImageSharpFluid_tracedSVG

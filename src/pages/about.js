@@ -3,7 +3,6 @@ import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 
-import Footer from "../components/Reuseable/Footer"
 import Back from "../components/Reuseable/Back"
 
 const AboutPage = ({data}) => (

@@ -1,8 +1,8 @@
 .bg-theme{
   background-color: #00cccd;
 }
-.cart-icon{
-  font-size: 2rem;
+.home{
+  margin-bottom: 250px;
 }
 .hero-background{
   min-height: 100vh;
@@ -34,17 +34,30 @@
   width: 70vw;
   margin-top: 140px;
   color: white;
-} 
-
+}
+.bestes{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.best{
+  width: 80px;
+  position: absolute;
+      top: 10px;
+      left: 25px;
+}
 
 .searchpng{
   width: 20px;
 }
 .row-content{
-  margin: 150px 0px 5px 0px;
-  padding: auto;
+  margin: 105px 0px 105px 0px;
+}
+.row-content-pro{
+  margin: 135px 0px 105px 0px;
+}
+.glow{
   text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 25px black;
-
 }
 .row-content-1{
   margin-bottom: 60px;
@@ -64,18 +77,14 @@
 
 .title{
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
+  margin-top: 150px;
 }
 
 .welcome{
-  color:black;
+  color: rgb(229, 253, 9);
   font-size: 30px;
-  text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px darkorange;
+  text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px black;
   text-align: center;
-}
-.homeimage{
-  width: 200px;
-  height: 200px;
-  margin-top: 60px;
 }
 
 
@@ -100,3 +109,9 @@ background-repeat: no-repeat;
     text-align: center;
   color:white
   }
+
+.dropdown-menu{
+  width: 100%;
+}
+
+  
