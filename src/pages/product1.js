@@ -18,7 +18,7 @@ const Product = ({data}) => (
 
 export const query = graphql`
 {
-  courses: allContentfulCourses {
+  courses: allContentfulProduct3 {
     edges{
       node{
         id

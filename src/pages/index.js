@@ -19,7 +19,7 @@ export default IndexPage
 
 export const query = graphql`
 {
-  img: file(relativePath: { eq: "heromain.jpg" }) {
+  img: file(relativePath: { eq: "3.jpg" }) {
      childImageSharp {
        fluid(quality: 100) {
         ...GatsbyImageSharpFluid_tracedSVG
@@ -27,4 +27,4 @@ export const query = graphql`
      }
    }
 }
-   `
+`

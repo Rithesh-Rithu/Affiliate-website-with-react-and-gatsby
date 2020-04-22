@@ -3,71 +3,53 @@ import { Link } from 'gatsby';
 import logo from '../../images/logo.png'
 
 export default class Navbar extends Component {
-    
-    state={
-        navbarState: false,
-        navbarClass: "collapse navbar-collapse",
-        menus: [{
-            id:1,
-            text:"Home",
-            url: '/'
-        },{
-            id:2,
-            text:"Products",
-            url:'/products'
-            
-        },{
-            id:3,
-            text:"About",
-            url:'/about'
-        },{
-            id:4,
-            text:"Contact",
-            url:'/contact'
-        }]
-    }
-
-    myToggler= () => {
-        this.state.navbarState ? this.setState({
-            navbarState: false,
-            navbarClass: "collapse navbar-collapse"
-        }) : this.setState({
-            navbarState: true,
-            navbarClass: "collapse navbar-collapse show"
-        })
-    }
-
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-navtheme text-white fixed-top">
-                <Link to = "/" className="navbar-brand ml-5">
-                    <img src={logo} alt="logo goes here" width="40px" />
-                </Link>
-                <h2>fashionfreaky.com</h2>
-                <div className="container search">
-                <form className="d-flex justify-content-between search-inner">
-                    <input type="text" className="form-control" id="search_input" placeholder="Search Here"/>
-                    <button type="submit" className="btn btn-primary"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" alt="search button goes here" className="searchpng"/></button>
-                    <span className="ti-close" id="close_search" title="Close Search"></span>
-                </form>
-            </div>
-                <button className="navbar-toggler" type="button" onClick={this.myToggler} >
-                    <span className="text-white">Menu</span>
-                </button>
-                <div className={this.state.navbarClass}>
-                    <ul className="navbar-nav ml-auto mr-5">
-                        {this.state.menus.map(menu => {
-                            return(
-                                <b>
-                                <li key={menu.id} className="nav-item">
-                                    <Link to={menu.url} className="nav-link text-white">{menu.text}</Link>
-                                </li> </b>
-                            )
-                        })}
-                        
-                    </ul>
+        <div className="container">
+            <div className="row">
+            <nav className="navbar navbar-expand-md bg-navtheme text-white fixed-top">    
+                <div className="container col-10 col-sm-10 col-md-4">
+                    <Link to = "/" className="navbar-brand">
+                        <img className="lo" src={logo} alt="logo goes here" width="40px" />
+                    </Link>
+                
+                    <h2 className="ff">freakyfashion.com</h2>
                 </div>
-            </nav>
+                <div className="container col-3 col-sm-3 col-md-3">
+                    <div className="btn-group">
+                        <button type="button" className="btn btn-primary"><a className="text-white" href="http://localhost:8000/products/">All</a></button>
+                        <button type="button" className="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span className="sr-only"></span>
+                        </button>
+                        <div className="dropdown-menu">
+                            <a className="dropdown-item" href="http://localhost:8000/shoes/">Shoes</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="">Product</a>
+                        </div>
+                </div>
+            </div>
+            <div className="container col-12 col-sm-12 col-md-5">
+            <a href="/" className="btn text-white">Home</a>
+            <a href="/products" className="btn text-white">Products</a>
+            <a href="/contact" className="btn text-white">Contact</a>
+            <a href="/about" className="btn text-white">About</a>
+            </div>
+        </nav>    
+        </div>
+        
+        </div>
         )
     }
 }

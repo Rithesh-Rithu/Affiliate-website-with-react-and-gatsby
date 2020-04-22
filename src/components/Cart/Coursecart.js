@@ -75,12 +75,12 @@ export default class Coursecart extends Component {
                                             <small>{node.description.description}</small>
                                         </p>
                                         <h6 className="mb=0 text-success">$ {node.price}</h6>
-                                        <a className="btn btn-warning" href={node.description.description} target="_blank" role="button">Buy now</a>
+                                        <a className="btn btn-warning" href={node.description.description} target="_blank" rel="noopener noreferrer" role="button">Buy now</a>
                                     </div> 
                                 </div>
                             )
                         })
-                        } 
+                        }
                     </div>
                 </div>
             </section>

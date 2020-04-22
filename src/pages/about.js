@@ -1,17 +1,32 @@
 import React from "react"
 import SEO from "../components/seo"
+
 import Layout from "../components/layout"
-import Infoblock from "../components/Reuseable/Infoblock"
-import DualInfoblock from "../components/Reuseable/DualInfoblock"
+
+import Footer from "../components/Reuseable/Footer"
+import Back from "../components/Reuseable/Back"
 
 const AboutPage = ({data}) => (
-  <Layout>
-    <SEO title="About" />
-    <DualInfoblock heading="A message from CEO" img="https://images.pexels.com/photos/247204/pexels-photo-247204.jpeg?cs=srgb&dl=portrait-of-a-woman-247204.jpg&fm=jpg" />
-    <Infoblock heading="About Vision" /> 
+    <Layout>
+    <SEO title="About"/>
+     <Back img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
+  
   </Layout>
-
 )
 
 
 export default AboutPage
+
+
+
+export const query = graphql`
+{
+  img: file(relativePath: { eq: "4.jpg" }) {
+     childImageSharp {
+       fluid(quality: 100) {
+        ...GatsbyImageSharpFluid_tracedSVG
+       }
+     }
+   }
+}
+   `

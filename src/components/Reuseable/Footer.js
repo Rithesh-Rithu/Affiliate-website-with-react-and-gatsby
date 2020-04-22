@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 pt-2 mx-auto text-center bg-navtheme text-light">
-                            <h6>Awesome copyright &copy; 2020</h6>
+                            <h6>Copyright &copy; 2020 | freakyfashion.com</h6>
                         </div>
                     </div>
                 </div>
