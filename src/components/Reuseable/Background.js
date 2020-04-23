@@ -19,18 +19,14 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                     <a  className="text-primary display-4 cate" href="product1">Shoes</a> 
                     <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
                     </ul>
                     <a className="btn btn-warning btn-block" href="/product1">View More</a>
                 </div>
@@ -44,18 +40,14 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                     <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
                     <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
                     </ul>                   
                     <a className="btn btn-warning btn-block" href="/product2">View More</a>
                 </div>
@@ -69,18 +61,14 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                    <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
                    <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
                     </ul>                   
                     <a className="btn btn-warning btn-block" href="/product3">View More</a>
                 </div>
@@ -94,18 +82,14 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                     <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
                     <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
                     </ul>                   
                     <a className="btn btn-warning btn-block" href="/product4">View More</a>
                 </div>
@@ -119,18 +103,14 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                     <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
                     <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
                     </ul>                   
                     <a className="btn btn-warning btn-block" href="/product5">View More</a>
                 </div>
@@ -144,24 +124,21 @@ export default function products({img, heroclass}) {
                 <div className="col-sm-12 col-md-6">
                     <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
                     <ul className="text-white">
-                        <li>Shoes with combo</li>
-                        <li>Both Men and Women</li>
-                        <li>Little price!!!</li>
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
-                        <li>Little price!!!</li> 
+                        <li className="text">Shoes with combo</li>
+                        <li className="text">Both Men and Women</li>
+                        <li className="text">Little price!!!</li>
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li> 
+                        <li className="text">Little price!!!</li>
                     </ul>                   
                     <a className="btn btn-warning btn-block" href="/product6">View More</a>
                 </div>
             </div>
+            <div className="container">
             <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-10 col-md-6">
                    <h3 className="text-white">Related search results</h3><br/>
                    <a className="text-primary">Best selling shoes</a><br/>
                    <a className="text-primary">Best shoes in india</a><br/>
@@ -171,8 +148,9 @@ export default function products({img, heroclass}) {
                    <a className="text-primary">Best selling shoes</a><br/>
                    <a className="text-primary">Best selling shoes</a><br/>
                    <a className="text-primary">Best selling shoes</a><br/>
-                </div>
-                <div className="col-sm-12 col-md-6">
+                </div> 
+                
+                <div className="col-sm-10 col-md-6">
                    <h3 className="text-white">Frequent search results</h3><br/>
                    <a className="text-primary">Best selling shoes</a><br/>
                    <a className="text-primary">Best shoes in india</a><br/>
@@ -183,6 +161,7 @@ export default function products({img, heroclass}) {
                    <a className="text-primary">Best selling shoes</a><br/>
                    <a className="text-primary">Best selling shoes</a><br/>
                 </div>
+            </div>
             </div>
         </div>     
     </div>

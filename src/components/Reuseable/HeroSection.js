@@ -13,7 +13,7 @@ export default function HeroSection({img, heroclass}) {
                         </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-3">
                         
                     </div>
                     <div className="col-12 col-md-6">
