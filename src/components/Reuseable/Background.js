@@ -1,6 +1,12 @@
 import React from 'react'
 import SEO from "../seo"
 import BackgroundImage from 'gatsby-background-image'
+import Sports from "../../images/sports.jpg"
+import Shoes from "../../images/shoes.jpg"
+import Home from "../../images/home.jpg"
+import Health from "../../images/health.jpg"
+import Data from "../../images/data.jpg"
+import Watches from "../../images/watches.jpg"
 
 
 export default function products({img, heroclass}) {
@@ -10,156 +16,79 @@ export default function products({img, heroclass}) {
     <div>
         <SEO title="Products" />
         <div className="container">
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product1">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
+            <div className="row my-5">
+                <div className="col-12 col-md-4 row-content-bg">
+                    <div className="">
+                        <img className="card-img-top" src={Shoes} alt="Card image cap"/>
+                        <div className="my-1">
+                            <h5 className="card-title btn btn-outline-warning btn-block"><b>Shoes</b></h5>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-sm-12 col-md-6">
-                    <a  className="text-primary display-4 cate" href="product1">Shoes</a> 
-                    <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                    </ul>
-                    <a className="btn btn-warning btn-block" href="/product1">View More</a>
+                <div className="col-12 col-md-4 row-content-bg">
+                    <div className="">
+                            <img className="card-img-top" src={Sports} alt="Card image cap"/>
+                            <div className="my-1">
+                                <h5 className="card-title btn btn-outline-warning btn-block"><b>Sports</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                <div className="col-12 col-md-4 row-content-bg">
+                    <div className="">
+                        <img className="card-img-top" src={Home} alt="Card image cap"/>
+                        <div className="my-1">
+                            <h5 className="card-title btn btn-outline-warning btn-block"><b>Home & Kitchen</b></h5>
+                            
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product2">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
+            
+                <div className="col-12 col-md-4 row-content-bg"> 
+                    <div className="">
+                        <img className="card-img-top" src={Health} alt="Card image cap"/>
+                        <div className="my-1">
+                            <h5 className="card-title btn btn-outline-warning btn-block"><b>Health & Beauty Care</b></h5>
+                            
+                        </div>
+                    </div>
+               </div>
+            
+            
+                <div className="col-12 col-md-4 row-content-bg">
+                    <div className="">
+                        <img className="card-img-top" src={Data} alt="Card image cap"/>
+                        <div className="my-1">
+                            <h5 className="card-title btn btn-outline-warning btn-block"><b>Data Storage Devices</b></h5>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div className="col-sm-12 col-md-6">
-                    <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
-                    <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                    </ul>                   
-                    <a className="btn btn-warning btn-block" href="/product2">View More</a>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product3">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
-                </div>
-                <div className="col-sm-12 col-md-6">
-                   <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
-                   <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                    </ul>                   
-                    <a className="btn btn-warning btn-block" href="/product3">View More</a>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product4">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
-                </div>
-                <div className="col-sm-12 col-md-6">
-                    <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
-                    <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                    </ul>                   
-                    <a className="btn btn-warning btn-block" href="/product4">View More</a>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product5">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
-                </div>
-                <div className="col-sm-12 col-md-6">
-                    <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
-                    <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                    </ul>                   
-                    <a className="btn btn-warning btn-block" href="/product5">View More</a>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-12 col-md-6">
-                    <a href="product6">
-                        <img className="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                    </a>
-                </div>
-                <div className="col-sm-12 col-md-6">
-                    <a  className="text-primary display-4 cate" href="product1">Shoes</a>  
-                    <ul className="text-white">
-                        <li className="text">Shoes with combo</li>
-                        <li className="text">Both Men and Women</li>
-                        <li className="text">Little price!!!</li>
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li> 
-                        <li className="text">Little price!!!</li>
-                    </ul>                   
-                    <a className="btn btn-warning btn-block" href="/product6">View More</a>
-                </div>
-            </div>
-            <div className="container">
-            <div className="row row-content">
-                <div className="col-sm-10 col-md-6">
-                   <h3 className="text-white">Related search results</h3><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best shoes in india</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                </div> 
+                <div className="col-12 col-md-4 row-content-bg">
+                    <div className="">
+                            <img className="card-img-top" src={Watches} alt="Card image cap"/>
+                            <div className="my-1">
+                                <h5 className="card-title btn btn-outline-warning btn-block"><b>Watches</b></h5>
+                               
+                            </div>
+                        </div>
+                    </div>
                 
+                
+            </div>
+
+            <div className="container">
+            <div className="row my-5">
                 <div className="col-sm-10 col-md-6">
-                   <h3 className="text-white">Frequent search results</h3><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best shoes in india</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
-                   <a className="text-primary">Best selling shoes</a><br/>
+                   <h2 className="text-white">Best filtered results by our team</h2>
+                   <a className="text-primary" href="/product7"><h5>best <b>sports</b> shoes in <b>india</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5>best <b>loafers</b> under <b>500</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5><b>best watches</b> for <b>boys</b> and <b>girls</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5><b>sneakers</b> under <b>500</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5>air <b>pump</b> under <b>250</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5><b>cricket</b> shoes under <b>2000</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5><b>combo</b> shoes under <b>1000</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5>best watches <b>under 2500 rupees in india</b></h5></a>
+                   <a className="text-primary" href="/product7"><h5><b>pen drives</b> under <b>500</b></h5></a>
                 </div>
             </div>
             </div>

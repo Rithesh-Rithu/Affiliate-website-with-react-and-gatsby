@@ -8,7 +8,7 @@ import {Link} from 'gatsby'
             <BackgroundImage  fluid={img} className={heroclass}>
                <section className="e my-4 py-3 title">
                 <div className="container">
-                <h1 className="abouth1">About Us</h1>
+                <h1 className="abouth1 display-3">About Us</h1>
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto text-center">
                         <p className="lead text-white mb-4">

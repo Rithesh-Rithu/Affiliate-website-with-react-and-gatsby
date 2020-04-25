@@ -4,8 +4,6 @@ import Footer from "../components/Reuseable/Footer"
 import Background from "../components/Reuseable/Background"
 import { graphql } from 'gatsby'
 import SEO from "../components/seo"
- 
-
 const products = ({data}) => (
     <div>
       <SEO title="Products" />
