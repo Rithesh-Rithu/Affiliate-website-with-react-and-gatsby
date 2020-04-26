@@ -2,7 +2,6 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Infoblock from "../components/Reuseable/Infoblock"
-import Heading from '../components/Reuseable/Heading'
 
 
 const ContactPage = () => (
@@ -16,7 +15,7 @@ const ContactPage = () => (
         </div>
     <div className="col-12 col-md-6 info">
     <section className="py-3">
-            <Heading title="Contact Us"/> 
+            <h1 className="display-3 conthead ">Contact Us</h1> 
             <div className="col-10 col-sm-8 mx-auto">
                 <form action="https://formspree.io/mpzjgzgw" method="POST">
                     <div className="form-group">

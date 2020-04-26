@@ -12,9 +12,7 @@ import {Link} from 'gatsby'
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto text-center">
                         <p className="lead text-white mb-4">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                        
-
+                        We believe in living for today and tomorrow! Because our decisions have a lasting impact, we make them thoughtfully. Our mission is to help people by providing the best and cheap products available online. We hope you enjoy the products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us  
                         </p>
                         <Link to = "/about">
                             <button className="btn btn-warning btn-lg">
