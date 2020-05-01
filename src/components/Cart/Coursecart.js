@@ -71,7 +71,7 @@ export default class Coursecart extends Component {
                                         <Img fluid={node.image.fluid} />
                                     </div>
                                     <div className="card-body">
-                                        <h5 className="card-title"><b>{node.title}</b></h5>
+                                        <h5 className="card-title "><b>{node.title}</b></h5>
                                         <ul>
                                             <li className="card-text">{node.description1}</li>
                                             <li className="card-text">{node.description2}</li>
