@@ -10,6 +10,11 @@ const products = ({data}) => (
     <div>
       <SEO title="Shoes" />
       <Navbar />
+      <div className="row py-5">
+            <div className="col text-center mb-4 pad">
+                <h1 className="display-4 text-warning">Shoes</h1>
+            </div>
+      </div>
       <Coursecart courses={data.courses} />
       <Footer />
       </div>
@@ -19,7 +24,7 @@ export default products
 
 export const query = graphql`
 {
-   courses:allContentfulProduct1 {
+   courses:allContentfulProduct2 {
     edges {
       node {
         id
