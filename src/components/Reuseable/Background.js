@@ -20,7 +20,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg">
                     <div className="">
                         <a href="/product1">
-                        <img className="card-img-top" src={Shoes} alt="Shoe section" /></a>
+                        <img className="card-img-top" src={Shoes} alt="Shoes" /></a>
                         <a className="my-1" href="/product1">
                             <h5 className="card-title btn btn-outline-warning btn-block"><b>Shoes</b></h5>
                         </a>
@@ -29,7 +29,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg">
                     <div className="">
                             <a href="/product2">
-                            <img className="card-img-top" src={Sports} alt="Card image cap"/></a>
+                            <img className="card-img-top" src={Sports} alt="Sports"/></a>
                             <a className="my-1" href="/product2">
                                 <h5 className="card-title btn btn-outline-warning btn-block"><b>Sports</b></h5>
                             </a>
@@ -38,7 +38,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg">
                     <div className="">
                         <a href="/product3">
-                        <img className="card-img-top" src={Home} alt="Card image cap"/></a>
+                        <img className="card-img-top" src={Home} alt="Home"/></a>
                         <a href="/product3" className="my-1">
                             <h5 className="card-title btn btn-outline-warning btn-block"><b>Home & Kitchen</b></h5>
                             
@@ -49,7 +49,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg"> 
                     <div className="">
                         <a href="/product4">  
-                        <img className="card-img-top" src={Health} alt="Card image cap"/></a>
+                        <img className="card-img-top" src={Health} alt="Health"/></a>
                         <a href="/product4" className="my-1">
                             <h5 className="card-title btn btn-outline-warning btn-block"><b>Health & Beauty Care</b></h5>
                             
@@ -61,7 +61,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg">
                     <div className="">
                         <a href="/product5">
-                        <img className="card-img-top" src={Data} alt="Card image cap"/></a>
+                        <img className="card-img-top" src={Data} alt="Data"/></a>
                         <a href="/product5" className="my-1">
                             <h5 className="card-title btn btn-outline-warning btn-block"><b>Data Storage Devices</b></h5>
                             
@@ -71,7 +71,7 @@ export default function products({img, heroclass}) {
                 <div className="col-12 col-md-4 row-content-bg">
                     <div className="">
                         <a href="/product6">
-                            <img className="card-img-top" src={Watches} alt="Card image cap"/></a>
+                            <img className="card-img-top" src={Watches} alt="Watches"/></a>
                             <a href="/product6" className="my-1">
                                 <h5 className="card-title btn btn-outline-warning btn-block"><b>Watches</b></h5>
                                

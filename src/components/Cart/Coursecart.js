@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Heading from '../Reuseable/Heading'
 import Img from 'gatsby-image'
 
 const getCaty = items => {
@@ -40,10 +39,9 @@ export default class Coursecart extends Component {
     render() {
         
         return (
-            <section className="py-5">
+            <section className="">
             <div className="container">
-                <Heading title="Sports"/>
-                <div className="row my-3">
+                <div className="row mb-4">
                     <div className="col-12 mx-auto text-center">
                         {this.state.mycategories.map((category, index) => {
                             return (
@@ -71,7 +69,7 @@ export default class Coursecart extends Component {
                                         <Img fluid={node.image.fluid} />
                                     </div>
                                     <div className="card-body">
-                                        <h5 className="card-title "><b>{node.title}</b></h5>
+                                        <h5 className="card-title1"><b>{node.title}</b></h5>
                                         <ul>
                                             <li className="card-text">{node.description1}</li>
                                             <li className="card-text">{node.description2}</li>

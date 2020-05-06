@@ -10,6 +10,11 @@ const products = ({data}) => (
     <div>
       <SEO title="Sports" />
       <Navbar />
+      <div className="row py-5">
+            <div className="col text-center mb-4 pad">
+                <h1 className="display-4 text-warning">Sports</h1>
+            </div>
+      </div>
       <Coursecart courses={data.courses} />
       <Footer />
       </div>
