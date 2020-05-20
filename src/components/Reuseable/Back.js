@@ -14,9 +14,9 @@ import {Link} from 'gatsby'
                         <p className="lead text-white mb-4">
                         We believe in living for today and tomorrow! Because our decisions have a lasting impact, we make them thoughtfully. Our mission is to help people by providing the best and cheap products available online. We hope you enjoy the products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us  
                         </p>
-                        <Link to = "/about">
+                        <Link to = "/contact">
                             <button className="btn btn-warning btn-lg">
-                               About Us
+                               <b>Feel free to contact us !!!</b>
                             </button>
                         </Link>
                     </div>

@@ -24,7 +24,7 @@ export default class Navbar extends Component {
                     <div className="container col-12 col-sm-12 col-md-4">
                         <a href="/" className="btn btn-outline-light text-white">Home</a>
                         <div className="dropdown">
-                        <a href="/products" className="btn btn-outline-light text-white">Products</a>
+                        <a href="/products" className="btn btn-outline-light text-white button">Products</a>
                         <div class="dropdown-content">
                             <a href="/product1">Sports</a>                    
                             <a href="/product2">Shoes</a>

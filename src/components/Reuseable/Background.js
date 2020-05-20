@@ -86,15 +86,15 @@ export default function products({img, heroclass}) {
             <div className="row my-5">
                 <div className="col-sm-10 col-md-6">
                    <h2 className="text-white">Best filtered results by our team</h2>
-                   <a className="text-primary" href="/product7"><h5>best <b>sports</b> shoes in <b>india</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5>best <b>loafers</b> under <b>500</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5><b>best watches</b> for <b>boys</b> and <b>girls</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5><b>sneakers</b> under <b>500</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5>air <b>pump</b> under <b>250</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5><b>cricket</b> shoes under <b>2000</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5><b>combo</b> shoes under <b>1000</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5>best watches <b>under 2500 rupees in india</b></h5></a>
-                   <a className="text-primary" href="/product7"><h5><b>pen drives</b> under <b>500</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5>best <b>sports</b> shoes in <b>india</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5>best <b>loafers</b> under <b>500</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5><b>best watches</b> for <b>boys</b> and <b>girls</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5><b>sneakers</b> under <b>500</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5>air <b>pump</b> under <b>250</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5><b>cricket</b> shoes under <b>2000</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5><b>combo</b> shoes under <b>1000</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5>best watches <b>under 2500 rupees in india</b></h5></a>
+                   <a className="text-primary" href="/productbest"><h5><b>pen drives</b> under <b>500</b></h5></a>
                 </div>
             </div>
             </div>

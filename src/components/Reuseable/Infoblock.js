@@ -14,7 +14,7 @@ export default function Infoblock({heading}) {
                         <p>Also if you have any feedback about our site, please submit it...</p>
                         <Link to = "/contact">
                             <button className="btn btn-warning btn-lg">
-                                {heading}
+                                Contact Us
                             </button>
                         </Link>
                     </div>
