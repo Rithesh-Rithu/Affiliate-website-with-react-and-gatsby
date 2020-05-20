@@ -1,11 +1,11 @@
-require('dotenv').config({
-  path:`.env.${process.env.NODE_ENV}`,
-}) 
+require("dotenv").config({
+  path:`.env.development`,
+})
 
 module.exports = {
   siteMetadata: {
-    title: `BestIndianProduct.in`,
-    description: `Buy the best products in India`,
+    title: `Youtube Project`,
+    description:  `Amazing youtube project`,
     author: `@rithesh`,
   },
   plugins: [
@@ -16,6 +16,7 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+      
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -28,7 +29,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`,  // This path is relative to the root of the site.
       },
     },
     {
@@ -39,7 +40,6 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
-    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
