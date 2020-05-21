@@ -14,7 +14,7 @@ export default function HeroSection({img, heroclass}) {
                 <div className="home">
                     <h1 className="text-white text-uppercase display-3 title"><b><i>Buy the best out of best</i></b></h1>
                         <div>
-                            <h4 className="welcome"><b>Welcome to BestIndianProduct.in !!!</b></h4>
+                            <h4 className="welcome"><b>Welcome to Cartlify.in !!!</b></h4>
                         </div>
                 </div>
             </BackgroundImage>  

@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `bestindianproduct.in`,
-    description:  `Best Indian Products available in online !!!`,
+    title: `Cartlify.in`,
+    description:  `Best Indian Products available @ online !!!`,
     author: `@rithesh`,
   },
   plugins: [

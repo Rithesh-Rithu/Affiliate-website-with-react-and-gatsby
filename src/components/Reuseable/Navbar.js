@@ -8,11 +8,11 @@ export default class Navbar extends Component {
         <div className="container">
             <div className="row">
                 <div className="navbar navbar-expand-md bg-navtheme text-white fixed-top">    
-                    <div className="container col-12 col-sm-10 col-md-2">
+                    <div className="container col-12 col-sm-10  col-md-2">
                         <Link to = "/" className="">
                             <img className="lo" src={logo} alt="logo goes here" width="40px" />
                         </Link>
-                        <a href="/" className="text-white"><h2 className="ff">bestindianproduct.in</h2></a>
+                        <a href="/" className="text-white"><h2 className="ff">cartlify.in</h2></a>
                     </div>
                    
                    <div className="col-12 col-md-6"> 
