@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from "../components/Reuseable/Navbar"
-import Footer from "../components/Reuseable/Footer"
 import { graphql } from 'gatsby'
 import SEO from "../components/seo"
 import Coursecartbest from "../components/Cart/Coursecartbest"
@@ -27,7 +25,6 @@ export const query = graphql`
     edges {
       node {
         id
-        title
         category
         description1
         description2

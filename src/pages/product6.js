@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from "../components/Reuseable/Navbar"
-import Footer from "../components/Reuseable/Footer"
 import { graphql } from 'gatsby'
 import SEO from "../components/seo"
 import Coursecart from "../components/Cart/Coursecart"

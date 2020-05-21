@@ -120,19 +120,11 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-.about{
-  height: 100vh;
-  
-  background-image: url("https://images.pexels.com/photos/1236701/pexels-photo-1236701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-attachment: fixed;
-  background-position: "center";
-  background-repeat: "no-repeat";
-  background-size: auto;
-}
+
   .abouth1{
     margin-top: 100px;
     text-align: center;
-  color:white;
+    color:white;
   }
 
 .dropdown-menu{
