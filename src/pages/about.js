@@ -7,14 +7,14 @@ import Back from "../components/Reuseable/Back"
 
 const AboutPage = ({data}) => (
     <Layout>
-    <SEO title="About"/>
+     <SEO title="About"/>
      <Back img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
   
   </Layout>
 )
 
 
-export default AboutPage
+export default AboutPage 
 
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import SEO from "../seo"
 import BackgroundImage from 'gatsby-background-image'
 import Sports from "../../images/sports.jpg"
 import Shoes from "../../images/shoes.jpg"
@@ -7,14 +6,13 @@ import Home from "../../images/home.jpg"
 import Health from "../../images/health.jpg"
 import Data from "../../images/data.jpg"
 import Watches from "../../images/watches.jpg"
-
+ 
 
 export default function products({img, heroclass}) {
   return (
     
     <BackgroundImage  fluid={img} className={heroclass}>
     <div>
-        <SEO title="Products" />
         <div className="container">
             <div className="row my-5">
                 <div className="col-12 col-md-4 row-content-bg">
@@ -93,7 +91,6 @@ export default function products({img, heroclass}) {
                    <a className="text-primary" href="/productbest"><h5>air <b>pump</b> under <b>250</b></h5></a>
                    <a className="text-primary" href="/productbest"><h5><b>cricket</b> shoes under <b>2000</b></h5></a>
                    <a className="text-primary" href="/productbest"><h5><b>combo</b> shoes under <b>1000</b></h5></a>
-                   <a className="text-primary" href="/productbest"><h5>best watches <b>under 2500 rupees in india</b></h5></a>
                    <a className="text-primary" href="/productbest"><h5><b>pen drives</b> under <b>500</b></h5></a>
                 </div>
             </div>

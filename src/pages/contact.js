@@ -11,11 +11,11 @@ const ContactPage = () => (
     <div className="container">
     <div className="row">
         <div className="col-12 col-md-6 info">
-    <Infoblock heading="How can we help you?" />
+            <Infoblock heading="How can we help you?" />
         </div>
     <div className="col-12 col-md-6 info">
     <section className="py-3">
-            <h1 className="display-3 conthead ">Contact Us</h1> 
+            <h1 className="display-3 conthead mt-5">Contact Us</h1> 
             <div className="col-10 col-sm-8 mx-auto">
                 <form action="https://formspree.io/mpzjgzgw" method="POST">
                     <div className="form-group">

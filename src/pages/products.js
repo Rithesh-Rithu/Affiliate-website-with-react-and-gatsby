@@ -1,16 +1,13 @@
 import React from 'react'
-import Navbar from "../components/Reuseable/Navbar"
-import Footer from "../components/Reuseable/Footer"
 import Background from "../components/Reuseable/Background"
 import { graphql } from 'gatsby'
 import SEO from "../components/seo"
+import Layout from '../components/layout'
 const products = ({data}) => (
-    <div>
-      <SEO title="Products" />
-      <Navbar />
-      <Background img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
-      <Footer />
-      </div>
+    <Layout>
+        <SEO title="Products" />
+        <Background img={data.img.childImageSharp.fluid}  heroclass="hero-background"/> 
+      </Layout>
   )
 
 export default products
