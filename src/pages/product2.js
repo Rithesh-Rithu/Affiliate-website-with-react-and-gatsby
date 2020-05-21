@@ -4,20 +4,19 @@ import Footer from "../components/Reuseable/Footer"
 import { graphql } from 'gatsby'
 import SEO from "../components/seo"
 import Coursecart from "../components/Cart/Coursecart"
+import Layout from '../components/layout'
  
 
 const products = ({data}) => (
-    <div>
+    <Layout>
       <SEO title="Shoes" />
-      <Navbar />
       <div className="row py-5">
             <div className="col text-center mb-4 pad">
                 <h1 className="display-4 text-warning">Shoes</h1>
             </div>
       </div>
       <Coursecart courses={data.courses} />
-      <Footer />
-      </div>
+      </Layout>
   )
 
 export default products
