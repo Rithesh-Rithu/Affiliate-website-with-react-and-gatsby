@@ -25,6 +25,7 @@ export const query = graphql`
     edges {
       node {
         id
+        title
         category
         description1
         description2
